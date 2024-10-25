@@ -3,4 +3,4 @@ WORKDIR /app
 COPY . /app
 RUN pip install -r requirements.txt
 EXPOSE 90
-CMD ["python", "jogo_do_galo.py"]
+CMD ["python", "galo.py"]
